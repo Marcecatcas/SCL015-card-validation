@@ -2,17 +2,53 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="#">
   </head>
   <body>
+    <!-- Aqui definiremos la estructura del encabezado de la pagina web, 
+      esto se compone por el logo y los menu de navegaccion de la pagina. Ademas esta parte es comun para cada uno de los archivos 
+    HTML--> 
     <header>
-      <h1>Valida tu tarjeta de prepago!</h1>
-      <img src="SBIF.jpg" alt="">
-      <a href="index1.html"></a>
+      <img src="Imagen1.png" alt="Asociacion AntiFraude Financiero">
+      <input type="button" class="menu" value="INICIO" onclick="location='index.html'">
+      <input type="button" class="menu" value="VALIDA TU TCP" onclick="location='index1.html'">
+      <input type="button" class="menu" value="INFORMACION ADICIONAL" onclick="location='index2.html'">
+      <input type="button" class="menu" value="CONTACTO" onclick="location='index3.html'">
+      
     </header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
+    <!--Esta es la parte variable en cada una de las paginas, en este caso esta corresponde a la pagina principal-->
+      <main class="main">
+    
+      </main>
+
+    <!--Esta parte corresponde al pie de pagina, en donde tambien todas laas paginas HTML poseen la misma estructura-->
+    <footer>
+      <table>
+        <tr> 
+          <td class="Information">SuperIntendencia Bancos e Instituciones Financieras (SBIF) <br>
+          Dirección: Av. Libertador Bernardo O'Higgins 1449, Santiago, Chile <br>
+          telefono:  (+56 2) 2887 9200 <br>
+          pagina web: <a href="https://www.sbif.cl/">https://www.sbif.cl/</a></td>
+  
+          <td class="Information">Asociacion Anti Fraude Financiero (ASF) <br>
+            Dirección: Av. Nueva Tajamar 7500, Santiago, Chile <br>
+            telefono:  (+56 2) 2823 6800 <br>
+            pagina web: <a href="https://www.asff.cl/">https://www.asff.cl/</a></td>
+
+            <td class="Ubication">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.2425149617006!2d-70.60700558480154!3d-33.416921180783504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf4263159e79%3A0x9ed684c300c90d3f!2sNueva%20Tajamar%2C%20Santiago%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1603291354666!5m2!1ses-419!2scl"></iframe>
+            </td>
+
+            <td class="Information">
+              <img src="logo1.png" alt="SBIF" id="examplethree">
+            </td>
+          </tr>
+       
+      </table>
+    </footer>
+   
   </body>
 </html>

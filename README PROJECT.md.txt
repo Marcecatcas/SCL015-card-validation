@@ -12,6 +12,29 @@ IMAGEN FINAL DEL PROYECTO
 
 
 
+
+Experiencia UX
+1.- Explicar quiénes son los usuarios y los objetivos en relación con el producto:
+Este producto es para adultos que prefieran costear una tarjeta internacional tipo prepago, y que ademas tienen acceso a un computador 
+desde su hogares, ya que la mayoria de estos productos son del tipo digital.
+Los objetivos relacionados son:
+a) Informar respecto al uso de estas tarjetas para que la persona que las compre haga un uso responsable de este producto.
+b) Validar la tarjeta de prepago antes de cargarle dinero y que pueda caer en fraude por parte de la entidad donde solicito este producto.
+2.- Explicar cómo el producto soluciona los problemas/necesidades de dichos usuarios:
+Este producto puede evitar estafas digitales que son baastante comunes.
+3.- Luego colocarás la foto de tu primer prototipo en papel.
+prototipo en papel(https://drive.google.com/file/d/14fNZ9V0FJ_oqLTE8mgwe9rZGWL1U3kM7/view?usp=sharing)
+4.- Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+-Lo encuentran una idea interesante, ya que se puede evitar la perdida de dinero y evitar tambien pasar un mal rato tratando de recuperar
+el dinero y tiempo perdidos.
+-Con respecto a mejoras:
+-Agregar una pagina de inicio}
+-creacion de logo
+-fuente (cambiarla por una mas moderna) 
+-tratar de hacer la web un poco mas interactiva (le agregue un cambio de color al menu para que no se viera tan plana)
+5.-Imagen del prototipo final.
+foto prototipo general(https://drive.google.com/file/d/1UzS6Pi0q4MvSCJn41TrBui7MBt3Z8iuc/view?usp=sharing)
+https://www.figma.com/file/eOZ21q1xYhNt4mxGJMwy4A/Card-Validation
 OBJETIVOS PROYECTO
 SOFT SKILLS
 -Perder el temor a preguntar

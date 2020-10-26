@@ -1,0 +1,25 @@
+const local = window.localStorage;
+let form = document.getElementById("form");
+let cardNumber = document.getElementsByClassName("code");
+
+cardNumber.addEventListener("submit", newFunction();
+})
+
+function newFunction() {
+    local.setItem("number", cardNumber.value);
+}
+
+function valueRecovery(){
+cardNumber.value = local.getItem("number");
+ /*
+
+
+
+function sendValue(){ if(length = 16) {
+        aqui queria poner que genere la funcion validadora} else (length < 16)
+    devolver que el campo esta incompleto}
+
+traer elemento que contiene el texto y declarar funcion para obtener el maskify if(length >0 , <4) {}else if(length > 4) {function 
+
+    no debe esconder ningun caracter}else if (length > 4) {
+    deberia esconder los digitos por lo que aqui llamamos a la funcion maskify*/
