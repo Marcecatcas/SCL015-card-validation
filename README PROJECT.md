@@ -4,8 +4,8 @@ Valida tu tarjeta de credito prepago!
 DESCRIPCION PROYECTO
 muchos adultos jovenes debido a que no poseen la rentabilidad o deseo de abrir cuentas corrientes que 
 dispongan de tarjeta de credito internacional. ha dado pie a la venta y a un aumento de las tarjetas 
-prepago de este tipo, en la cual por medio de transferencia de tu dinero se puede usar para lo que 
-necesitas sin endeudamiento. Sin embargo tambien existen estafas relaionadas con este tipo de tarjetas,
+prepago, el cual por medio de transferencia de tu dinero se puede usar para lo que 
+necesitas sin endeudamiento. Sin embargo tambien existen estafas relacionadas con este tipo de tarjetas,
 con esta aplicacion tratamos de dar al usuario una ratificacion de que la tarjeta es valida y funcional. 
 
 IMAGEN FINAL DEL PROYECTO

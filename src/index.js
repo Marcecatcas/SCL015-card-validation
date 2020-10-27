@@ -4,7 +4,7 @@ console.log(validator);
 
 //traer elemento del formulario para validar la tarjeta
 const validate = document.getElementsByClassName("button");
-let creditCardNumber = "";
+let creditCardNumber = '';
 //por medio del onsubmit traer el elemento de texto y enlazar a la funcion validadora.
 validate.onsubmit = function cardValidate() {
     /* por medio de un bucle do obligamos a que se genere el documento, el cual se guardara en una variable en caso de que esta
@@ -13,13 +13,15 @@ validate.onsubmit = function cardValidate() {
     creditCardNumber = document.getElementById("number").value;
     if (creditCardNumber !== '') {
         isValid(creditCardNumber);
-    }
-    else {
+    } else {
         alert("por favor ingrese un valor valido");
     }
     if (creditCardNumber > 4){
         maskify(creditCardNumber);
     }
-}
-}
+  }   
+  
+    while(creditCardNumber === '');
 
+}
+                 
