@@ -28,6 +28,7 @@ const validator = {
       alert("tu tarjeta es invalida, por favor comunicate a la brevedad al 8007000100.")
     }
   }
+   //maskify:(creditCardNumber) => {}
+
 }
 export {validator}
-// aqui van las funciones Valid y Maskify
