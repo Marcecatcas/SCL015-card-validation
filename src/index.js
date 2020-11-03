@@ -11,7 +11,7 @@ function validar(){
    if(creditCardNumber !='') {
     validator.isValid(creditCardNumber);
    }
-  if(creditCardNumber.length > 4) {
+  if(creditCardNumber.length !== '') {
     validator.maskify(creditCardNumber);
 } else{
     alert("por favor ingresa numero valido");
