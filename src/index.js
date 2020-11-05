@@ -1,6 +1,7 @@
 import validator from './validator.js';
 
 console.log(validator); 
+
 //guardar el valor obtenido mediante una variable
 const validate = document.getElementById('submit');
 let creditCardNumber = '';
@@ -10,14 +11,15 @@ validate.addEventListener('click',validar)
 //corresponde a un string.
 function validar(){
    creditCardNumber = document.getElementById('number').value;
-   //le decimos que si ese valor es distinto de vacio se ejecuten tanto la
-   //funcion isValid como la funcion maskify.
+   /*le decimos que si ese valor es distinto de vacio se ejecuten tanto la
+   //funcion isValid como la funcion maskify.*/
    if(creditCardNumber !='') {
     validator.isValid(creditCardNumber);
     //dependiendo del valor de retorno lanza las alertas respectivas.
-     if(validator.isValid == true){
+     if(validator.isValid(creditCardNumber) === true){
      alert("tu tarjeta es valida, puedes usarla en el comercio.");}
-     else if (validator.isValid == false){
+   }
+     /*else if (validator.isValid == false){
      alert("tu tarjeta es invalida, por favor comunicate a la brevedad al 8007000100.");
     }
    //tambien le decimos que si no se encuentra vacio que ejecute la funcion maskify
@@ -25,5 +27,5 @@ function validar(){
    }  
    else{
     alert("por favor ingresa numero valido");
-   }
+   }*/
 }
