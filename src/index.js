@@ -14,15 +14,15 @@ function validar(){
    /*le decimos que si ese valor es distinto de vacio se ejecuten tanto la
    //funcion isValid como la funcion maskify.*/
    if(creditCardNumber !='') {
-    validator.isValid(creditCardNumber);
+    const validate = validator.isValid(creditCardNumber);
     //dependiendo del valor de retorno lanza las alertas respectivas.
-     if(validator.isValid(creditCardNumber) === true){
+     if(validate === true){
      alert("tu tarjeta es valida, puedes usarla en el comercio.");}
-   }
-     /*else if (validator.isValid == false){
+     else {
      alert("tu tarjeta es invalida, por favor comunicate a la brevedad al 8007000100.");
     }
-   //tambien le decimos que si no se encuentra vacio que ejecute la funcion maskify
+  }
+   /*tambien le decimos que si no se encuentra vacio que ejecute la funcion maskify
     validator.maskify(creditCardNumber);
    }  
    else{

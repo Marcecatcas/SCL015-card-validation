@@ -35,6 +35,10 @@ const validator = {
     } else {
     return false; 
     }
+    
+  }
+    
+  }
   /*,
    maskify:(creditCardNumber) => {
     let number = '';
@@ -48,9 +52,9 @@ const validator = {
       fullNumber = maskifyCardNumber + number.slice(-4);
       return fullNumber;
    } */
+   
+  
 
-  }
-}
 
 
 export default validator
