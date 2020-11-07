@@ -7,49 +7,49 @@ describe('validator', () => {
   });
 
   describe('validator.isValid', () => {
-    it('debería ser una función', () => {
+    it.skip('debería ser una función', () => {
       expect(typeof validator.isValid).toBe('function');
     });
 
-    it('debería retornar true para "4083952015263"', () => {
+    it.skip('debería retornar true para "4083952015263"', () => {
       expect(validator.isValid("4083952015263")).toBe(true);
     });
 
-    it('debería retornar true para "79927398713"', () => {
+    it.skip('debería retornar true para "79927398713"', () => {
       expect(validator.isValid("79927398713")).toBe(true);
     });
     //prueba extra true
-    it('debería retornar true para "49927398716"', () => {
+    it.skip('debería retornar true para "49927398716"', () => {
       expect(validator.isValid("49927398716")).toBe(true); 
     });
     //prueba extra false
-    it('debería retornar false para "4539148803436467"', () => {
+    it.skip('debería retornar false para "4539148803436467"', () => {
       expect(validator.isValid("4539148803436467")).toBe(false);
     });
     //prueba extra false
-    it('debería retornar false para "8273123273520569"', () => {
+    it.skip('debería retornar false para "8273123273520569"', () => {
       expect(validator.isValid("8273123273520569")).toBe(false);
     });
     
-    it('debería retornar false para "1234567890"', () => {
+    it.skip('debería retornar false para "1234567890"', () => {
       expect(validator.isValid("1234567890")).toBe(false);
     });
   });
 
   describe('validator.maskify', () => {
-    it.skip('debería ser una función', () => {
+    it('debería ser una función', () => {
       expect(typeof validator.maskify).toBe('function');
     });
 
-    it.skip('Debería retornar "************5616" para "4556364607935616"', () => {
+    it('Debería retornar "************5616" para "4556364607935616"', () => {
       expect(validator.maskify).toBe(true);
     });
 
-    it.skip('Debería retornar "1" para "1"', () => {
+    it('Debería retornar "1" para "1"', () => {
       expect(validator.maskify).toBe(true);
     });
 
-    it.skip('Debería retornar "******orld" para "helloworld"', () => {
+    it('Debería retornar "******orld" para "helloworld"', () => {
       expect(validator.maskify).toBe(false);
     });
   });

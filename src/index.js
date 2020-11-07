@@ -22,10 +22,14 @@ function validar(){
      alert("tu tarjeta es invalida, por favor comunicate a la brevedad al 8007000100.");
     }
   }
-   /*tambien le decimos que si no se encuentra vacio que ejecute la funcion maskify
-    validator.maskify(creditCardNumber);
-   }  
+   //tambien le decimos que si encuentra una cantidad de caracteres mayor a 4 que ejecute la funcion maskify
+    if (creditCardNumber > 4) {
+       const maskify = validator.maskify(creditCardNumber);
+       if( maskify == true){
+        return maskify;
+      }
+   }
    else{
-    alert("por favor ingresa numero valido");
-   }*/
+    return creditCardNumber;
+   }
 }
