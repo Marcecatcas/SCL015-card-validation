@@ -22,14 +22,16 @@ function validar(){
      alert("tu tarjeta es invalida, por favor comunicate a la brevedad al 8007000100.");
     }
   }
+}
+//lamamos al evento relacionado con el cuadro de texto
+let maskifyNumber = document.getElementById('number');
+//llamamos al evento para que guarde los valores
+maskifyNumber.addEventListener('keyup',enmascarar)
+function enmascarar(){
+   creditCardNumber = document.getElementById('number').value;
+   if(creditCardNumber.length > 4)
+   return alert(validator.maskify(creditCardNumber).value);
+   /*maskifyStringNumber = validator.maskify(creditCardNumber);
    //tambien le decimos que si encuentra una cantidad de caracteres mayor a 4 que ejecute la funcion maskify
-    if (creditCardNumber > 4) {
-       const maskify = validator.maskify(creditCardNumber);
-       if( maskify == true){
-        return maskify;
-      }
-   }
-   else{
-    return creditCardNumber;
-   }
+   return maskifyStringNumber;*/
 }
