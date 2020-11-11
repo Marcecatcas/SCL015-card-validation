@@ -9,9 +9,7 @@ necesitas sin endeudamiento. Sin embargo tambien existen estafas relacionadas co
 con esta aplicacion tratamos de dar al usuario una ratificacion de que la tarjeta es valida y funcional. 
 
 IMAGEN FINAL DEL PROYECTO
-
-
-
+[pagina](http://localhost:5000/)
 
 Experiencia UX
 1.- Explicar quiénes son los usuarios y los objetivos en relación con el producto:
@@ -28,7 +26,7 @@ Este producto puede evitar estafas digitales que son baastante comunes.
 -Lo encuentran una idea interesante, ya que se puede evitar la perdida de dinero y evitar tambien pasar un mal rato tratando de recuperar
 el dinero y tiempo perdidos.
 -Con respecto a mejoras:
--Agregar una pagina de inicio}
+-Agregar una pagina de inicio
 -creacion de logo
 -fuente (cambiarla por una mas moderna) 
 -tratar de hacer la web un poco mas interactiva (le agregue un cambio de color al menu para que no se viera tan plana)

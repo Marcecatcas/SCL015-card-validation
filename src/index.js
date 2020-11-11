@@ -30,7 +30,7 @@ maskifyNumber.addEventListener('keyup',enmascarar)
 function enmascarar(){
    creditCardNumber = document.getElementById('number').value;
    if(creditCardNumber.length > 4)
-   return alert(validator.maskify(creditCardNumber).value);
+   return validator.maskify(creditCardNumber).value;
    /*maskifyStringNumber = validator.maskify(creditCardNumber);
    //tambien le decimos que si encuentra una cantidad de caracteres mayor a 4 que ejecute la funcion maskify
    return maskifyStringNumber;*/
