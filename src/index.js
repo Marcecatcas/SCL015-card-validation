@@ -24,13 +24,15 @@ function validar(){
   }
 }
 //lamamos al evento relacionado con el cuadro de texto
-let maskifyNumber = document.getElementById('number');
+let maskifyNumber = document.getElementById('submit');
 //llamamos al evento para que guarde los valores
-maskifyNumber.addEventListener('keyup',enmascarar)
+maskifyNumber.addEventListener('click',enmascarar)
 function enmascarar(){
    creditCardNumber = document.getElementById('number').value;
-   if(creditCardNumber.length > 4)
-   return alert(validator.maskify(creditCardNumber).value);
+   if(creditCardNumber.length > 4){
+   return alert(validator.maskify(creditCardNumber));}
+   else{ 
+      return creditCardNumber;}
    /*maskifyStringNumber = validator.maskify(creditCardNumber);
    //tambien le decimos que si encuentra una cantidad de caracteres mayor a 4 que ejecute la funcion maskify
    return maskifyStringNumber;*/
