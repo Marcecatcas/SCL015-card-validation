@@ -102,8 +102,7 @@ se utilizó el atributo id, y poder sectorizar los tamaños y colores. Esta part
 }
 
 #submit {
-    text-align: right;
-    margin-left: 70%;
+    margin-left: 65.7%;
     margin-top: 2%;
     width: 150px;
     height: 40px;
@@ -114,6 +113,25 @@ se utilizó el atributo id, y poder sectorizar los tamaños y colores. Esta part
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif¿;
     background-color: #0088A7;
     box-shadow: 0px 0px 10px 0px #909090;
+}
+#reset {
+    width: 150px;
+    height: 40px;
+    color: #F3F0F0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif¿;
+    background-color: #0088A7;
+    box-shadow: 0px 0px 10px 0px #909090;
+}
+#validcard {
+    margin-left: 900px;
+    text-align: center;
+}
+#invalidcard{
+    margin-left: 1000px;
+    text-align: center;
 }
 /*Este espacio corresponde a las configuraciones de main del archivo index2.html*/
 h3 {

@@ -16,10 +16,13 @@ function validar(){
    if(creditCardNumber !='') {
     const validate = validator.isValid(creditCardNumber);
     //dependiendo del valor de retorno lanza las alertas respectivas.
-     if(validate === true){
-     alert("tu tarjeta "+ validator.maskify(creditCardNumber) +" es valida, puedes usarla en el comercio.");}
-     else {
-     alert("tu tarjeta "+validator.maskify(creditCardNumber) +" es invalida, por favor comunicate a la brevedad al 8007000100.");
-    }
+    if(validate === true){
+     document.getElementById("validcard").innerHTML= "tu tarjeta "+ validator.maskify(creditCardNumber) + " es valida, puedes usarla en el comercio.";
+   }else {
+     document.getElementById("invalidcard").innerHTML="tu tarjeta "+ validator.maskify(creditCardNumber) + " es invalida, por favor comunicate a la brevedad al 8007000100.";
+}
   }
 }
+
+
+
