@@ -17,23 +17,9 @@ function validar(){
     const validate = validator.isValid(creditCardNumber);
     //dependiendo del valor de retorno lanza las alertas respectivas.
      if(validate === true){
-     alert("tu tarjeta es valida, puedes usarla en el comercio.");}
+     alert("tu tarjeta "+ validator.maskify(creditCardNumber) +" es valida, puedes usarla en el comercio.");}
      else {
-     alert("tu tarjeta es invalida, por favor comunicate a la brevedad al 8007000100.");
+     alert("tu tarjeta "+validator.maskify(creditCardNumber) +" es invalida, por favor comunicate a la brevedad al 8007000100.");
     }
   }
-}
-//lamamos al evento relacionado con el cuadro de texto
-let maskifyNumber = document.getElementById('submit');
-//llamamos al evento para que guarde los valores
-maskifyNumber.addEventListener('click',enmascarar)
-function enmascarar(){
-   creditCardNumber = document.getElementById('number').value;
-   if(creditCardNumber.length > 4){
-   return alert(validator.maskify(creditCardNumber));}
-   else{ 
-      return creditCardNumber;}
-   /*maskifyStringNumber = validator.maskify(creditCardNumber);
-   //tambien le decimos que si encuentra una cantidad de caracteres mayor a 4 que ejecute la funcion maskify
-   return maskifyStringNumber;*/
 }
