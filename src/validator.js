@@ -40,6 +40,7 @@ const validator = {
   maskify:(creditCardNumber) => {
      //declaro el numero completo par que al final guarde aqui el procedimiento realizado.
      let fullNumber = '';
+     //condiciono por medio de un if...else para que se ejecute la funcion de enmascarar o si no que retorne el numero que ingresamos.
      if(creditCardNumber.length > 4){
     //almaceno los ultimos 4 digitos en una variable por medio de slice
     let lastFourNumbers = creditCardNumber.slice(-4);
